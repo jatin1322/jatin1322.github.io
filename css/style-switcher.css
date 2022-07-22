@@ -2,8 +2,8 @@
 {   
     position: fixed;
     right: 0;
-    top: 60px;
-    padding: 15px;
+    top: 30px;
+    padding: 7px;
     width: 200px;
     border: 1px solid var(--bg-black-50);
   background: var(--bg-black-100);
@@ -78,3 +78,14 @@ background-color: #ec1839;
             .style-switcher .colour5{
                 background-color: #f021b2;
                 }
+
+@media (max-width: 541px) {
+  .style-switcher {
+    top: 1px;
+    
+  }
+  .style-switcher .day-night {
+    top: 43px;
+  }
+  
+}
